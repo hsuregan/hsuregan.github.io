@@ -1,4 +1,57 @@
-#test
+*
 {
+	font-family: font-family: 'Nunito', sans-serif;
+}
+
+#about
+{
+	width: 80%;
+	margin: 0 auto;
 	background-color: yellow;
+}
+
+#template
+{
+	width: 100%;
+}
+#name_title
+{
+	font-family: 'Nunito', sans-serif;
+	margin-top: 2%;
+	font-size: 50px;
+	margin-top: 25%;
+}
+
+#navlist
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+
+#navlist li
+{
+	display: inline;
+	background-color: blue;
+	text-decoration: none;
+	padding: 3px;
+	margin-top: 100px;
+
+}
+
+#navlist a:link
+{
+	color: white;
+	text-decoration: none !important;
+}
+
+#navbar
+{
+
+}
+
+body
+{
+	font-family: 'Nunito', sans-serif !important;
 }

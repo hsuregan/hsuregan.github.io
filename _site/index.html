@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="en">
 	<head>
+		<meta name="description" content="Regan Hsu">
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 		<link rel="stylesheet" href="CSS/stylesheet.css">
 
 		<!-- Latest compiled and minified CSS -->
@@ -11,13 +17,35 @@
 	</head>
 
 	<body>
-		<div id="test">
-		testing 
+		<div id="template">
+		<!--puts the navbar in -->
 		</div>
-		Hello World
-		<a href="./first.html">um</a>
+
+<!-- 		<div id="about">
+			<div class="row">
+				<center>
+					<img src="http://graph.facebook.com/reganhsu/picture?width=100&height=100"/>
+				</center>
+
+			</div>
+
+
+ 				<div class="col-sm-6">
+					Hi, welcome to my website!  I'm currently studying Electrical Engineering at UCLA.  
+				</div> -->
+
 	</body>
+	   
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function() {
+
+		$("#template").load("template.html");
+		
+	}
+	);
+	</script>
 
 </html>
