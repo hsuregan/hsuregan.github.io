@@ -1,4 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito);
+html
+{
+}
+
+#profile_pic
+{
+	border-radius: 100%;
+	border: solid white 5px;
+	width: 100px;
+}
+
+#name_title
+{
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-size: 50px;
+	padding-top: 5%;
+	background-color: black;
+    background-size: 100% 100%;
+}
+
 
 *
 {
@@ -16,16 +37,10 @@
 {
 	width: 100%;
 }
-#name_title
-{
-	font-family: 'Nunito', sans-serif;
-	margin-top: 2%;
-	font-size: 50px;
-	margin-top: 25%;
-}
 
 #navlist
 {
+	font-size: 15px;
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
@@ -37,7 +52,7 @@
 {
 	height: 80%;
 	background-color: white;
-	border-bottom: none !important;
+	border-bottom: solid white 0.5px !important;
 	border: solid black 1px;
 	display: inline;
 	text-decoration: none;
@@ -45,16 +60,15 @@
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-top: 100px;
-	transition: background-color 1.5s, padding-left .5s, padding-right .5s;
+	transition: background-color 1.5s, padding-left .7s;
 
 }
 
 #navlist li:hover
 {
-	background-color: blue;
 	padding-left: 20px;
 	padding-right: 20px;
-	transition: background-color 1.5s, padding-left .5s, padding-right .5s;
+	transition: background-color 1.5s, padding .7s;
 }
 
 #navlist a:link
@@ -66,7 +80,7 @@
 
 #navlist li:hover a:link
 {
-	color: white;
+	color: black;
 	text-decoration: none !important;
 	transition: color .5s;
 }
