@@ -1,36 +1,98 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,400&subset=latin,cyrillic-ext);
 html
 {
+}
+
+.portrait
+{
+	height: 500px;
+}
+.artwork
+{
+	width: 90%;
+}
+
+.project_description
+{
+	font-size: 12px;
+    font-weight: oblique;
+}
+
+.project_images
+{
+	width: 100%;
+
+}
+
+.slick-slider
+{
+	width: 70% !important;
+}
+
+
+.project_title
+{
+	font-size: 30px;
+}
+
+.right
+{
+	text-align: right;
+}
+
+.left
+{
+	text-align: left;
+}
+
+.description
+{
+	font-size: 15px;
 }
 
 #profile_pic
 {
 	border-radius: 100%;
 	border: solid white 5px;
-	width: 100px;
+	width: 120px;
+	-moz-box-shadow: 0 0 40px #006400;
+	-webkit-box-shadow: 0 0 40px #006400;
+	box-shadow: 0px 0px 40px #006400;
+	transition: -moz-box-shadow .5s, -webkit-box-shadow .5s, box-shadow .5s;
+
+}
+
+#profile_pic:hover
+{
+	-moz-box-shadow: 0 0 0px #006400;
+	-webkit-box-shadow: 0 0 0px #006400;
+	box-shadow: 0px 0px 0px #006400;
+	transition: -moz-box-shadow .5s, -webkit-box-shadow .5s, box-shadow .5s;
 }
 
 #name_title
 {
-	color: white;
+	color: #006400;
 	font-family: 'Nunito', sans-serif;
 	font-size: 50px;
-	padding-top: 5%;
-	background-color: black;
-    background-size: 100% 100%;
+	padding-top: 6%;
+    background-image: url("../images/cover_photo_9.jpg");
+    background-repeat: no-repeat;
+    background-color: #6ff36e;
+    background-size: 100%;
 }
 
 
-*
-{
-	font-family: font-family: 'Nunito', sans-serif;
-}
+
 
 #about
 {
 	width: 80%;
 	margin: 0 auto;
-	background-color: yellow;
+	font-size: 15px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300 !important;
 }
 
 #template
@@ -44,51 +106,55 @@ html
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	border-bottom: solid black 1px;
 }
 
 
 #navlist li
 {
+	color: #006400;
 	height: 80%;
 	background-color: white;
-	border-bottom: solid white 0.5px !important;
-	border: solid black 1px;
 	display: inline;
 	text-decoration: none;
-	padding: 1.8px;
+	margin-top: 100px;
+	transition: background-color 1.5s, padding-left .7s, border-color .5s;
+
+}
+
+
+.navlist li:hover
+{
+	background-color: #6ff36e;
+	border-color: transparent;
+	transition: border .5s, color .5s, background-color .5s, border-color .5s;
+}
+
+#navlist li .navlink
+{
+	background-color: white;
+	padding-bottom: 1px;
+	padding-top: 1px;
 	padding-left: 10px;
 	padding-right: 10px;
-	margin-top: 100px;
-	transition: background-color 1.5s, padding-left .7s;
-
+	border-bottom: white;
+	width: 100%;
+	color: #006400;
+	transition: border .5s, color .5s, background-color .5s, border-color 1s;
 }
 
-#navlist li:hover
+#navlist li:hover .navlink
 {
-	padding-left: 20px;
-	padding-right: 20px;
-	transition: background-color 1.5s, padding .7s;
-}
-
-#navlist a:link
-{
-	text-decoration: none !important;
-	transition: color .5s;
+	background-color: #6ff36e;
+	border: none;
+	text-decoration: none;
+	color: white;
+	transition: border .5s, color .5s, background-color .5s, border-color .5s;
 
 }
 
-#navlist li:hover a:link
-{
-	color: black;
-	text-decoration: none !important;
-	transition: color .5s;
-}
 
-#navbar
-{
 
-}
+
 
 body
 {
