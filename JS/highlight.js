@@ -12,6 +12,9 @@
 				if(url[i] == '/')
 					break;
 			}
+			if(i == 0){
+				highlight(document.getElementById("s-index"));
+			}
 			
 			var page = url.substring(i+1, url.length-5);
 			var pull = "s-"+page;
