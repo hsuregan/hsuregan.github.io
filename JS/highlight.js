@@ -12,6 +12,8 @@
 				if(url[i] == '/')
 					break;
 			}
+			console.log("i length is " + i);
+			console.log("url length is " + url.length);
 			if(i == url.length){
 				highlight(document.getElementById("s-index"));
 				return;
