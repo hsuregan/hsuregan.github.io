@@ -14,7 +14,7 @@
 			}
 			console.log("i length is " + i);
 			console.log("url length is " + url.length);
-			if(i == url.length){
+			if((i+1) == url.length){
 				highlight(document.getElementById("s-index"));
 				return;
 			}
@@ -24,6 +24,7 @@
 			console.log(pull);
 			var button = document.getElementById(pull);
 			highlight(button);
+			return;
 
 		
 		}
