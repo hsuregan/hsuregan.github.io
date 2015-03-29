@@ -14,6 +14,7 @@
 			}
 			if(i == 0){
 				highlight(document.getElementById("s-index"));
+				return;
 			}
 			
 			var page = url.substring(i+1, url.length-5);
