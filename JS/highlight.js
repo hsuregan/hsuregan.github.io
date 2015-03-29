@@ -12,7 +12,7 @@
 				if(url[i] == '/')
 					break;
 			}
-			if(i == 0){
+			if(i == url.length){
 				highlight(document.getElementById("s-index"));
 				return;
 			}
