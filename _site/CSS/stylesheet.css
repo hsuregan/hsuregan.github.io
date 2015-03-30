@@ -8,6 +8,24 @@ html
 {
 	height: 500px;
 }
+
+@media only screen and (max-width: 768px) {
+	.portrait
+	{
+		height: 50%;
+		width: 100%;
+	}
+	.
+	.artwork
+	{
+
+		padding-top: 1000px !important;
+	}
+	.slick-slider {
+		width: 60% !important;
+	}
+}
+
 .artwork
 {
 	width: 90%;
@@ -27,7 +45,7 @@ html
 
 .slick-slider
 {
-	width: 70% !important;
+	width: 70%;
 }
 
 
@@ -81,6 +99,12 @@ html
     background-repeat: no-repeat;
     background-color: #6ff36e;
     background-size: 100%;
+    text-align: center;
+}
+
+#tag
+{
+	font-size: 15px;
 }
 
 
