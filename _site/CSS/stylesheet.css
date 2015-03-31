@@ -24,6 +24,15 @@ html
 	.slick-slider {
 		width: 60% !important;
 	}
+	#name_title {
+		background-image: url("../images/cover_photo_9_ipad.jpg") !important;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#name_title {
+		background-image: url("../images/cover_photo_9_iphone.jpg") !important;
+	}
 }
 
 .artwork
