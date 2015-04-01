@@ -1,3 +1,5 @@
+	var current_id = null;
+
 	function highlight(button) {
 		$(button).css("background-color", "#006400");
 		$(button).css("color", "white");
@@ -7,6 +9,7 @@
 	function current_page()
 		{
 			var url = document.URL;
+			console.log(url);
 			for(i = url.length; i != 0; i--)
 			{
 				if(url[i] == '/')
@@ -19,16 +22,20 @@
 			
 			var page = url.substring(i+1, url.length-5);
 			var pull = "s-"+page;
-			console.log(pull);
-			var button = document.getElementById(pull);
-			highlight(button);
-			return;
+			//current_id = pull;
+			//console.log(pull);
+			return pull;
+			//var button = document.getElementById(pull);
+			//return button;
+			//highlight(button);
+			//return;
 
 		
 		}
 
 	$(document).ready(function(){
-		current_page();
+		current_id = current_page();
+		highlight(document.getElementById(current_id));
 	}
 	)
 

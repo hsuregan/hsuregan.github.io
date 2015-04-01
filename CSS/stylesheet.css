@@ -4,6 +4,10 @@ html
 {
 }
 
+.note_the_current_page{
+	background-color: #006400;
+	color: white;
+}
 
 #sticky-anchor {
 	margin-left: auto;

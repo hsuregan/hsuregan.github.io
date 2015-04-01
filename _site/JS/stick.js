@@ -1,9 +1,13 @@
+$(document).ready(function(){
+	var current_id = current_page();
+})
+
 function sticky_relocate() {
     var window_top = $(window).scrollTop();
     var div_top = $('#sticky-anchor').offset().top;
     if (window_top > div_top) {
         $('#navbar').addClass('stick');
-        $('.navlink').addClass('stick_li');
+        $('.navlink:not(#'+current_id+')').addClass('stick_li');
     } else {
         $('#navbar').removeClass('stick');
         $('.navlink').removeClass('stick_li');
