@@ -4,6 +4,35 @@ html
 {
 }
 
+
+#sticky-anchor {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+#navbar.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    border-radius: 0 0 0.5em 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #6ff36e !important;
+}
+
+.navlink.stick_li
+{
+	background-color: #6ff36e !important;
+	color: white !important;
+}
+
+.navlink.stick_li:hover
+{
+	color: #006400 !important;
+}
+
 .portrait
 {
 	height: 500px;
@@ -139,6 +168,7 @@ html
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+
 }
 
 
