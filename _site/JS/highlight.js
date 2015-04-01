@@ -4,7 +4,7 @@
 		return
 	}
 
-	$(document).ready(function()
+	function current_page()
 		{
 			var url = document.URL;
 			for(i = url.length; i != 0; i--)
@@ -26,5 +26,12 @@
 
 		
 		}
+
+	$(document).ready(function(){
+		current_page();
+	}
 	)
+
+
+
 
