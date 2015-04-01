@@ -29,12 +29,12 @@ html
 .navlink.stick_li
 {
 	background-color: #6ff36e !important;
-	color: white !important;
+	color: #006400 !important;
 }
 
 .navlink.stick_li:hover
 {
-	color: #006400 !important;
+	background-color: white !important;
 }
 
 .portrait
