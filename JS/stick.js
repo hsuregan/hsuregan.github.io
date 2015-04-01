@@ -1,6 +1,4 @@
-$(document).ready(function(){
-	var current_id = current_page();
-})
+
 
 function sticky_relocate() {
     var window_top = $(window).scrollTop();
