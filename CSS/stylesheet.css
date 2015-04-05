@@ -4,6 +4,11 @@ html
 {
 }
 
+#logistics{
+	text-align: right !important;
+	color: #7e7e7e;
+}
+
 .note_the_current_page{
 	background-color: #006400;
 	color: white;
