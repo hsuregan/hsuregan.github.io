@@ -4,6 +4,15 @@ html
 {
 }
 
+#unlock_title{
+	font-size:  2vw;
+}
+
+#unlocking_cover_photo {
+	padding: 5%;
+	font-family: 'Roboto Slab', serif;
+}
+
 #logistics{
 	text-align: right !important;
 	color: #7e7e7e;
@@ -123,6 +132,14 @@ html
 .description
 {
 	font-size: 15px;
+}
+
+#shh{
+	color: #006400 !important;}
+
+#shh:hover{
+	text-decoration: none !important;
+	color: #006400 !important;
 }
 
 #profile_pic
