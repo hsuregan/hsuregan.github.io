@@ -1,11 +1,11 @@
 $(document).ready(function() {
 	$("#template").load("template.html");
-	$('body').fadeIn(500);
+	$('body').fadeIn(1000);
 
 	$('.navlink').click(function(){
 		event.preventDefault();
 		var newLocation = this.href;
-		$('body').fadeOut(500, newpage);
+		$('body').fadeOut(1000, newpage);
 	});
 
 	function newpage() {
