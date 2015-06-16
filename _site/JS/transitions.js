@@ -5,7 +5,7 @@ $(document).ready(function() {
 	$('.navlink').click(function(){
 		event.preventDefault();
 		var newLocation = this.href;
-		$('body').fadeOut(1000, newpage);
+		$('body').fadeOut(5000, newpage);
 	});
 
 	function newpage() {
