@@ -1,2 +1,76 @@
-Hello World
-<a href "./first.html>um</a>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta name="description" content="Regan Hsu">
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<link rel="stylesheet" href="CSS/stylesheet.css">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	</head>
+
+
+	<body>
+		<div id="template">
+		<!--puts the navbar in -->
+		</div>
+
+
+		<div id="about">
+			<br /><br /><br />
+			<center>
+				Hi, welcome to my site :).  I'd like to use this page as an opportunity for you to get to know me a little better.  
+				<Br /> <br />
+				I'm currently a second-year undergraduate at <a href="http://www.ucla.edu/">UCLA</a> studying <a href="http://www.seasoasa.ucla.edu/curric-13-14/29cureleccompeng13.html">Electrical and Computer Engineering</a>, expecting to graduate in 2017.
+				<br /><br />
+				In the world of EE, I'm currrently most interested in signal processing and digital logic design.
+				<br />
+				In the world of CS, I'm currently having a lot of fun with web development.  
+				<br />
+				You can find out more about my skills and experience <a href="./resume.html">here</a>.
+				<br /> <br />
+				During my free time, I usually find myself reading, coding, or hanging out with friends.  
+				<br />
+				I also like making art in almost any context... for better or for worse.
+				<br />
+				You can check out some of what I consider my 'formal' artwork <a href="./artwork.html">here</a>.
+				<br /><br />
+				I can be reached at <a href="mailto:hsuregan@ucla.edu">hsuregan@ucla.edu</a>.
+				<br /><br /><Br /><br />
+			</center>
+		</div>
+
+	</body>
+	   
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61296622-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script>
+
+</script>
+
+
+
+<script src="JS/transitions.js"></script>
+
+
+
+</html>
