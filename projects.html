@@ -36,8 +36,42 @@
 
 		<div id="about">
 			<br /><br />
-			<center class="project_title">WEBWORK.</center><br />
+			<center class="project_title">PROJECTS.</center><br /><br />
 			<div class="row">
+
+			<div class="row">
+				<div class="col-md-6 col-md-push-6">
+					<center>
+						<br /><br />
+						<a class="project_title" href="http://107.170.149.67/">Room Occupancy Counter</a>
+					</center>
+					<center>
+						<br />
+						<br />
+						<div class="project_carousel" margin="10%">
+						    <div><img class="project_images" src="images/project_images/doorCounter/1.png" /><br /><div class="project_description">A count keeps track the number of people in a given room, while a graph is constructed in real time to provide useful statistics of room occupancy.  As occupancy increases, the circle becomes increasingly red until maximum occupancy is met.</div></div>
+						    <div><img class="project_images" src="images/project_images/doorCounter/2.png"/><br /><div class="project_description">The Landing Page.  The user will specify the maximum occupancy of a room before entering the service.</div></div>
+						    <div><img class="project_images" src="images/project_images/doorCounter/3.png" /><br /><div class="project_description">Once the maximum occupancy is met, the page will blink between red and white to indicate fire hazard.</div></div>
+						   					    			    
+						</div>
+					</center>
+					<br />
+				</div>
+				<div class="col-md-6 col-md-pull-6 description right" id="project_description">
+
+					The idea of this project is to create a service that would make keeping track of an auditorium's/room's occupancy simple.  By gathering data on the number of people entering and leaving the room, one can obtain statistics on the room occupancy.  For instance, a professor could analyze the attendance of a class each day.  This service could also be useful for warning people of fire hazards if the room is approaching maximum occupancy.
+					<br /> <br />
+
+					A set of sensors would keep track of people entering an exiting through a door, trigering the Arduinos to either send increment or decrement commands to the server.  The server in turn will update the headcount.  On the client-side, the webpage which indicates the number of people present will update on its own while constructing a nice graph that can be analyzed.
+					<br /> <br />
+
+					For this project, I built the website and server using Node.js interfacing with Express.js, and wrote C++ that would ensure that the Arduino Unos create the correct post requests whenever someone enters or leaves a given space.  Hardware used in this project included 2x Green Laser Modules, 2x Arduino Uno Microcontrollers, 2x Lux Sensors, and 2x Arduino WiFi Shields.  Software used in this project included C++, JavaScript, Node.js, Express.js, JQuery, Chartist.js, HTML/CSS, and hosting services from Digital Ocean.  
+
+				</div>
+			</div>
+
+			<hr >
+
 				<br />
 				<div class="col-md-6">
 					<center><a class="project_title" href="http://uclaradio.com">UCLA Radio.</a></center>
